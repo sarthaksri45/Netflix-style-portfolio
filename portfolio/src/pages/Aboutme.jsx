@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Aboutme = () => {
-  const [image] = useState("/sarthakcv.pdf");
+  const [image] = useState("/sarthaksrivastavcv.pdf");
   const navigate = useNavigate();
 
-  // 🔊 control audio via scroll
+ 
   const [isMuted, setIsMuted] = useState(true);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const Aboutme = () => {
   return (
     <div className="w-full overflow-x-hidden">
 
-      {/* HERO SECTION */}
+  
       <div className="relative">
         <video
           src="/3idiots.mp4"
@@ -63,7 +63,7 @@ const Aboutme = () => {
         </div>
       </div>
 
-      {/* CORE SKILLS */}
+     
       <section className="mt-12 px-6">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
           Core Skills

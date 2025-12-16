@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 const Home = () => {
-  const [image, setimage] = useState("/sarthakcv.pdf")
+  const [image, setimage] = useState("/sarthaksrivastavcv.pdf")
   const navigate= useNavigate();
   return (
     <div className="bg-black min-h-screen w-full flex flex-col justify-center items-center p-6">
