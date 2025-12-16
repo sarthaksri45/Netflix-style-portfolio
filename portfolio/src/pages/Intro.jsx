@@ -17,7 +17,7 @@ const navigate= useNavigate();
       onAnimationComplete={() => navigate("/Home")}
       className="bg-black flex w-screen h-screen items-center justify-center ">
     <motion.img
-        src="../src/fontbolt.png"
+        src="/fontbolt.png"
         alt=""
         initial={{ scale: 1 }}
         animate={start ? { scale: 90 } : { scale: 1 }}   
