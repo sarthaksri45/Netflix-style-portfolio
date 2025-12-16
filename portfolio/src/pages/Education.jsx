@@ -19,7 +19,7 @@ const Education = () => {
     </div>
      <div className='bg-white text-black mt-8 md:mt-0 w-90 md:w-150  md:ml-0 items-center rounded-xl opacity-100/2 shadow-2xl hover:shadow-red-600 p-1.5'>
           <h1 className='text md:text-3xl font-bold  md:mt-5 mb-2 md:mb-4'>Master of Computer Applications from Inderprastha Engineering College</h1>
-          <img src="/ipec.webp" alt="" className="w-130 h-59  opacity-100 rounded-xl"/>
+          <img src="/Ipec.webp" alt="" className="w-130 h-59  opacity-100 rounded-xl"/>
           <div className='mt-1 md:mt-2'>
           <h1 className=' md:text-2xl font-bold text-gray-500'> YEAR : 2024 - 2026</h1>
           <p>Focused on advanced computing concepts with an emphasis on real-world applications and scalable systems.</p>
